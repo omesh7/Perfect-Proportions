@@ -1,0 +1,77 @@
+{
+  "files.exclude": {
+    "node_modules": true,
+    ".gitignore": true,
+    ".prettierrc": true,
+    "babel.config.js": true,
+    "expo-env.d.ts": true,
+    "global.css": true,
+    "metro.config.js": true,
+    "next-env.d.ts": true,
+    "package-lock.json": true,
+    "components.json": true,
+    "next.config.ts": true,
+    "eslint.config.mjs": true,
+    "postcss.config.mjs": true,
+    "README.md": true,
+    // "tailwind.config.js": true,
+    "tsconfig.json": true,
+    "yarn.lock": true,
+    ".eslintrc.js": true,
+    ".yarnrc.yml": true,
+    "LICENSE": true,
+    "postcss.config.js": true,
+    "next.config.js": true,
+    "next-sitemap.js": true,
+    ".yarn": true,
+    ".next": true,
+    ".github": true,
+    "pnpm-lock.yaml": true,
+
+    //FLUTTER
+    "android": true,
+    "ios": true,
+    ".dart_tool": true,
+    ".idea": true,
+    ".metadata": true,
+    ".flutter-plugins": true,
+    ".flutter-plugins-dependencies":true,
+    "pubspec.lock": true,
+    "test": true,
+    "linux": true,
+    "macos": true,
+    "web": true,
+    "windows": true,
+    "analysis_options.yaml": true,
+  },
+  "tailwindCSS.classAttributes": [
+    "class",
+    "className",
+    "ngClass",
+    "class:list",
+    ".*[cC]lassName[sS]?.*"
+  ],
+  "tailwindCSS.experimental.classRegex": [
+    [
+      "cva\\(([^)]*)\\)",
+      "[\"'`]([^\"'`]*).*?[\"'`]"
+    ],
+    [
+      "cn\\(([^)]*)\\)",
+      "[\"'`]([^\"'`]*).*?[\"'`]"
+    ],
+    [
+      "cx\\(([^)]*)\\)",
+      "(?:'|\"|`)([^']*)(?:'|\"|`)"
+    ]
+  ],
+  "cSpell.words": [
+    "ellipsize",
+    "emailpass",
+    "hookform",
+    "medusajs",
+    "nativewind",
+    "Pressable",
+    "varelaround"
+  ]
+}
